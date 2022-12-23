@@ -20,3 +20,7 @@ function done() {
  };
  setTimeout(cool, 1000);
 }
+
+setTimeout(function() {
+ alert("Cookies are cool, time to eat!");
+}, 1000);
